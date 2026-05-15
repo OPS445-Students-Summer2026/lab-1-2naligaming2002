@@ -1,19 +1,40 @@
 test_0 (__main__.lab1a)
-[Lab 1] - [Investigation 3] - [Part 2] - printing - Test for file creation: ./lab1a.py ... FAIL
+[Lab 1] - [Investigation 3] - [Part 2] - printing - Test for file creation: ./lab1a.py ... ok
+test_a (__main__.lab1a)
+[Lab 1] - [Investigation 3] - [Part 2] - printing - Test for errors running: ./lab1a.py ... ok
+test_a1 (__main__.lab1a)
+[Lab 1] - [Investigation 3] - [Part 2] - printing - Test for correct shebang line: ./lab1a.py ... ok
+test_b (__main__.lab1a)
+[Lab 1] - [Investigation 3] - [Part 2] - printing - Test output for correct output "Hello world": ./lab1a.py ... ok
+test_0 (__main__.lab1b)
+[Lab 1] - [Investigation 4] - string objects & printing - Test for file creation: ./lab1b.py ... ok
+test_a (__main__.lab1b)
+[Lab 1] - [Investigation 4] - string objects & printing - Test for errors running: ./lab1b.py ... ok
+test_a1 (__main__.lab1b)
+[Lab 1] - [Investigation 4] - string objects & printing - Test for correct shebang line: ./lab1b.py ... ok
+test_b (__main__.lab1b)
+[Lab 1] - [Investigation 4] - string objects & printing - Test for correct output "How old are you Isaac?": ./lab1b.py ... ok
+test_0 (__main__.lab1c)
+[Lab 1] - [Investigation 4] - integer objects & printing - Test for file creation: ./lab1c.py ... ok
+test_a (__main__.lab1c)
+[Lab 1] - [Investigation 4] - integer objects & printing - Test for errors running: ./lab1c.py ... ok
+test_a1 (__main__.lab1c)
+[Lab 1] - [Investigation 4] - integer objects & printing - Test for correct shebang line: ./lab1c.py ... ok
+test_b (__main__.lab1c)
+[Lab 1] - [Investigation 4] - integer objects & printing - Test output for correct output "Isaac is 72 years old!": ./lab1c.py ... ok
+test_0 (__main__.lab1d)
+[Lab 1] - [Investigation 5] - math operators - Test for file creation: ./lab1d.py ... ok
+test_a (__main__.lab1d)
+[Lab 1] - [Investigation 5] - math operators - Test for errors running: ./lab1d.py ... ok
+test_a1 (__main__.lab1d)
+[Lab 1] - [Investigation 5] - math operators - Test for correct shebang line: ./lab1d.py ... ok
+test_b (__main__.lab1d)
+[Lab 1] - [Investigation 5] - math operators - Test output for correct output "10 + 2 * 5 = 20": ./lab1d.py ... ok
 
-======================================================================
-FAIL: test_0 (__main__.lab1a)
-[Lab 1] - [Investigation 3] - [Part 2] - printing - Test for file creation: ./lab1a.py
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "./CheckLab1.py", line 60, in test_0
-    self.assertTrue(os.path.exists('./lab1a.py'), msg=error_output)
-AssertionError: False is not true : your file cannot be found(HINT: make sure you AND your file are in the correct directory)
+Ran 16 tests in 0.297s
 
-----------------------------------------------------------------------
-Ran 1 test in 0.003s
-
-FAILED (failures=1)
+OK
 OPS445 Lab Report - System Information for running ./CheckLab1.py
 =================================================================
     User login name: mneupane5
@@ -25,5 +46,5 @@ OPS445 Lab Report - System Information for running ./CheckLab1.py
     VS Code version:  1.0.0 646
     OS Platform: linux
     Working Directory: /home/mneupane5/ops445/lab1
-    Start at: Fri May 15 12:45:39 2026
+    Start at: Fri May 15 12:51:05 2026
 =================================================================
